@@ -33,6 +33,12 @@
   line-height: 32px;
 }
 
+@media screen and (min-width: 768px) {
+  .testimonial-container {
+    flex-direction: row;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .testimonial-container {
     flex-direction: row;
